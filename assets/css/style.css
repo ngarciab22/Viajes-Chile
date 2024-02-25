@@ -8,3 +8,15 @@
 nav img{
     width: 40px;
 }
+
+#presentacion{
+    background-color: black;
+}
+
+
+.linea1{
+      width: 80%; 
+      margin: 0 auto; /* Centra la línea horizontal */
+      height: 1px; /* Grosor de 1 píxel */
+      color: white;
+}
