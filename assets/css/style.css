@@ -13,10 +13,20 @@ main{
     background-color: black;
 }
 
-
 .linea1{
       width: 80%; 
       margin: 0 auto; /* Centra la línea horizontal */
       height: 1px; /* Grosor de 1 píxel */
       color: white;
+}
+
+#tooltip i{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#tooltip button{
+    width: 30px;
+    height: 30px;
 }
