@@ -10,7 +10,10 @@ $(document).ready(function(){
                 scrollTop: $(hash).offset().top
             }, 'normal', function(){
                 window.location.hash = hash;
-            });
-        }
+            });}
     });
+    $("#enviarcorreo").click(function(){
+        alert("¡Muchas gracias! Hemos recibido tu correo.")
+    })
 });
+
