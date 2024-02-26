@@ -18,7 +18,7 @@ La estructura base de la página se divide en:
         + `section id: "presentacion"`: Corresponde al "¿Quiénes somos?" del main. Contiene 3 íconos y 3 párrafos.
         + `section id: "destacados"`: Corresponde a una galería de 4 cards con imágenes y texto.
         + `section id: "formulario"`: Corresponde al formulario de contacto del main, y contiene un botón de enviar.
-    + `footer`: La etiqueta incluye un **h2** que desaparece en cualquier formato distinto a lg y 4 íconos de redes sociales con sus correspondientes links asociados. 
+    + `footer`: La etiqueta incluye un **h2** y 4 íconos de redes sociales con sus correspondientes links asociados. 
 
 ## Tipografía/Íconos/Colores
 
