@@ -9,15 +9,19 @@ nav img{
     width: 40px;
 }
 
+.carousel-item img {
+    height: 750px; 
+}
+
 main{
     background-color: black;
 }
 
 .linea1{
-      width: 80%; 
-      margin: 0 auto; /* Centra la línea horizontal */
-      height: 1px; /* Grosor de 1 píxel */
-      color: white;
+    width: 80%; 
+    margin: 0 auto; /* Centra la línea horizontal */
+    height: 1px; /* Grosor de 1 píxel */
+    color: white;
 }
 
 #tooltip i{
