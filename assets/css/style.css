@@ -1,37 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{  margin: 0;
-    padding: 0;
-    font-family: "Raleway", sans-serif;
+*{  margin: 0; /*Margin página completa*/
+    padding: 0; /*Padding página completa*/
+    font-family: "Raleway", sans-serif; /*Tipografía página completa*/
 }
 
-nav img{
-    width: 40px;
+nav img{ 
+    width: 40px; /*Anchura de la img del navbar*/
 }
 
 main{
-    background-color: #000000;
+    background-color: #000000; /*bg-color de todo el main*/
 }
 
-.linea1{
-    width: 80%; 
-    margin: 0 auto; /* Centra la línea horizontal */
-    height: 1px; /* Grosor de 1 píxel */
-    color: #ffffff;
+.linea1{ /*hr*/
+    width: 80%; /*Anchura hr*/
+    margin: 0 auto; /*Margen hr*/
+    height: 1px; /*Altura hr*/
+    color: #ffffff; /*Color hr*/
 }
 
-#tooltip i{
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
+#tooltip i{ /*íconos Tooltip*/
+    font-size: 20px; /*Tamaño ícono*/
+    display: flex; 
+    justify-content: center; /*Ubicación horizontal ícono*/
 }
 
-#tooltip button{
-    width: 30px;
-    height: 30px;
+#tooltip button{ /*botón Tooltip*/
+    width: 30px; /*Anchura Tooltip*/
+    height: 30px; /*Altura Tooltip*/
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) { /*Tamaño imágenes del carrusel*/
     .carousel-item img{
       height: 800px;
     }
